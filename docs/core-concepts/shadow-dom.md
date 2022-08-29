@@ -70,6 +70,8 @@ const focusableInput = div.attachShadow({
 focusableInput.innerHTML = `<input placeholder="focusable" />`;
 ```
 
+[Sample](https://socar-butler.github.io/delegates-focus.html)
+
 ## Event 전파 - Composed
 
 - 커스텀 엘리먼트 내부에서 발생하는 *커스텀 이벤트*는 `Shadow Root`를 지나 외부로 전파 될수 없습니다.
@@ -84,6 +86,8 @@ shadowElement.dispatchEvent(new CustomEvent('butler-custom-event', {
   composed: true
 })
 ```
+
+[Sample](https://socar-butler.github.io/composed.html)
 
 > 그럼 Capturing은?
 >

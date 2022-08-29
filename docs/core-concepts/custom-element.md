@@ -82,3 +82,5 @@ window.customElements.define("custom-form", CustomForm, { extends: "form" });
 </script>
 ...
 ```
+
+[Sample](https://socar-butler.github.io/custom-form.html)

@@ -11,4 +11,4 @@
    1. [Custom Element](/docs/core-concepts/custom-element.md)
 1. Lit
    1. [lit](/docs/lit/lit.md)
-   1. [Demo](/docs/lit/demo/README.md)
+   1. [Demo](http://localhost:3000)
