@@ -27,7 +27,7 @@
 
 > 모든 엘리먼트에 Shadow DOM을 삽입 할 수 있을까?
 >
-> 보안상의 이유로 일부 엘리먼트에는 shadow dom을 삽입 할 수 없다. (ex. anchor) shadow dom을 삽입 할 수 있는 엘리먼트는 커스텀 엘리먼트와 article, aside, blockquote, body, div, footer, h1~h6, header, main, nav, p, section, span이 있다.
+> 보안상의 이유로 일부 엘리먼트에는 shadow dom을 삽입 할 수 없습니다. (ex. anchor) shadow dom을 삽입 할 수 있는 엘리먼트는 커스텀 엘리먼트와 article, aside, blockquote, body, div, footer, h1~h6, header, main, nav, p, section, span이 있습니다.
 
 ### Closed/Open mode `shadowRoot`
 
@@ -45,7 +45,7 @@
 
 ### delegatesFocus
 
-- 중첩된 shadow dom 중 상위 요소를 클릭 했을 때 focus가 대체될 대상 shadow dom을 생성하기 위해 delegatesFocus 속성을 사용합니다.
+- 중첩된 `shadow dom` 중 상위 요소를 클릭 했을 때 focus가 대체될 대상 `shadow dom`을 생성하기 위해 delegatesFocus 속성을 사용합니다.
 
 ```javascript
 document.body.attachShadow({ mode: "open" });
@@ -60,11 +60,13 @@ shadowRoot.innerHTML = `
   </style>
   <div></div>
 `;
+
 const div = shadowRoot.querySelector("div");
 const focusableInput = div.attachShadow({
   mode: "open",
   delegatesFocus: true,
 });
+
 focusableInput.innerHTML = `<input placeholder="focusable" />`;
 ```
 

@@ -3,7 +3,6 @@
 > `<slot>` 태그는 웹 컴포넌트 내 특정 영역의 마크업을 외부로 부터 주입 받기 위해 사용되는 태그 입니다.
 
 - Dialog 컴포넌트와 같이 내부의 마크업이 외부로 부터 결정되는 컴포넌트를 개발하기 위해 사용 할 수 있습니다.
--
 
 ```javascript
 customElements.define(
@@ -36,6 +35,8 @@ customElements.define(
 </custom-slot>
 ...
 ```
+
+[Sample](https://socar-butler.github.io/slot-sample.html)
 
 ## `<slot>`이 여러개 있다면?
 
@@ -80,6 +81,8 @@ customElements.define(
 ...
 ```
 
+[Sample](https://socar-butler.github.io/multiple-slot-sample.html)
+
 > `<custom-slot>` 사이에 추가된 엘리먼트의 순서와 상관 없이 `name` attribute를 통해 대상 `slot`을 찾아 가기 때문에 실제 화면에 출력되는 결과물은 `First Slotted` -> `Second Slotted` 순이 됩니다.
 
 ## Styling
@@ -121,3 +124,5 @@ customElements.define(
   }
 );
 ```
+
+[Sample](https://socar-butler.github.io/slot-stylingØ.html)
