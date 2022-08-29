@@ -125,4 +125,4 @@ customElements.define(
 );
 ```
 
-[Sample](https://socar-butler.github.io/slot-stylingØ.html)
+[Sample](https://socar-butler.github.io/slot-styling.html)
